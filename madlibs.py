@@ -10,7 +10,7 @@ def main():
 
     print("\nThe story goes...\n")
     print("It was %d o'clock when I heard a knock at the door." % time)
-    print("I opened the door and there was a box full of %s with a note saying \"From Mr. %s.\"" % (noun, name))
+    print("I opened the door and there was a box full of %s with a note saying \"From Mr. %s.\"" % (noun, name.title()))
     print("Just as I closed the door I heard a scream \"%s.\"" % sentence.upper())
     print("I froze in place and all I could do was %s." % verb)
 
